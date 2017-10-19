@@ -48,8 +48,6 @@ class AthletesTableViewController: UITableViewController {
                 
                 cell.textLabel?.text = athlete.name
 
-                
-                
                 let url = URL(string: athlete.image!)
                 let image = UIImage(named: "default_profile_icon")
                 cell.imageView?.kf.setImage(with: url, placeholder: image)

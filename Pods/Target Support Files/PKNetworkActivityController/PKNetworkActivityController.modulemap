@@ -1,0 +1,6 @@
+framework module PKNetworkActivityController {
+  umbrella header "PKNetworkActivityController-umbrella.h"
+
+  export *
+  module * { export * }
+}
