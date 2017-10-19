@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3D9E24031F97C5E600BE146C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E24021F97C5E600BE146C /* AppDelegate.swift */; };
-		3D9E24051F97C5E600BE146C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E24041F97C5E600BE146C /* ViewController.swift */; };
 		3D9E24081F97C5E600BE146C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9E24061F97C5E600BE146C /* Main.storyboard */; };
 		3D9E240A1F97C5E600BE146C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9E24091F97C5E600BE146C /* Assets.xcassets */; };
 		3D9E240D1F97C5E600BE146C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9E240B1F97C5E600BE146C /* LaunchScreen.storyboard */; };
 		3D9E24181F97C5E600BE146C /* ApptcomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E24171F97C5E600BE146C /* ApptcomTests.swift */; };
+		3D9E24251F97CA3B00BE146C /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E24231F97CA3B00BE146C /* Athlete.swift */; };
+		3D9E24261F97CA3B00BE146C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E24241F97CA3B00BE146C /* Result.swift */; };
+		3D9E24281F97CAEC00BE146C /* AthletesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E24271F97CAEC00BE146C /* AthletesTableViewController.swift */; };
+		3D9E242A1F97CB5B00BE146C /* AthletesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E24291F97CB5B00BE146C /* AthletesPresenter.swift */; };
+		3D9E242C1F97CC8800BE146C /* AthletesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E242B1F97CC8800BE146C /* AthletesService.swift */; };
+		3D9E242E1F99110000BE146C /* AthleteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E242D1F99110000BE146C /* AthleteDetailsViewController.swift */; };
+		3D9E24301F99127E00BE146C /* default_profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9E242F1F99127E00BE146C /* default_profile_icon.png */; };
+		511299F95112EA520FFAC777 /* Pods_Apptcom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBC01A893B9D99D44A042FA /* Pods_Apptcom.framework */; };
+		FEB722AE7B3F9A94EEB6A6B9 /* Pods_ApptcomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939B0B5E343BD28F3657FF29 /* Pods_ApptcomTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D34E935BB5F13200E861A42 /* Pods-Apptcom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apptcom.release.xcconfig"; path = "Pods/Target Support Files/Pods-Apptcom/Pods-Apptcom.release.xcconfig"; sourceTree = "<group>"; };
 		3D9E23FF1F97C5E600BE146C /* Apptcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apptcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9E24021F97C5E600BE146C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D9E24041F97C5E600BE146C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D9E24071F97C5E600BE146C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9E24091F97C5E600BE146C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9E240C1F97C5E600BE146C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +44,18 @@
 		3D9E24131F97C5E600BE146C /* ApptcomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApptcomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9E24171F97C5E600BE146C /* ApptcomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptcomTests.swift; sourceTree = "<group>"; };
 		3D9E24191F97C5E600BE146C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9E24231F97CA3B00BE146C /* Athlete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
+		3D9E24241F97CA3B00BE146C /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		3D9E24271F97CAEC00BE146C /* AthletesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AthletesTableViewController.swift; path = Athletes/AthletesTableViewController.swift; sourceTree = "<group>"; };
+		3D9E24291F97CB5B00BE146C /* AthletesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthletesPresenter.swift; sourceTree = "<group>"; };
+		3D9E242B1F97CC8800BE146C /* AthletesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AthletesService.swift; path = Athletes/AthletesService.swift; sourceTree = "<group>"; };
+		3D9E242D1F99110000BE146C /* AthleteDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleteDetailsViewController.swift; sourceTree = "<group>"; };
+		3D9E242F1F99127E00BE146C /* default_profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_profile_icon.png; sourceTree = "<group>"; };
+		7CBC01A893B9D99D44A042FA /* Pods_Apptcom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apptcom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DAF37B714037B862E650F8 /* Pods-ApptcomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApptcomTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApptcomTests/Pods-ApptcomTests.release.xcconfig"; sourceTree = "<group>"; };
+		939B0B5E343BD28F3657FF29 /* Pods_ApptcomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApptcomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEB86FC8F696F29E7E10F07 /* Pods-ApptcomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApptcomTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApptcomTests/Pods-ApptcomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD57686B18F42A5AD5D1EEC8 /* Pods-Apptcom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apptcom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Apptcom/Pods-Apptcom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511299F95112EA520FFAC777 /* Pods_Apptcom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB722AE7B3F9A94EEB6A6B9 /* Pods_ApptcomTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +84,8 @@
 				3D9E24011F97C5E600BE146C /* Apptcom */,
 				3D9E24161F97C5E600BE146C /* ApptcomTests */,
 				3D9E24001F97C5E600BE146C /* Products */,
+				78A68E21C9B6BCBD60341FA1 /* Pods */,
+				E1353FE09B3C9D19891EA3D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +101,12 @@
 		3D9E24011F97C5E600BE146C /* Apptcom */ = {
 			isa = PBXGroup;
 			children = (
+				3D9E242F1F99127E00BE146C /* default_profile_icon.png */,
+				3D9E24221F97CA3B00BE146C /* Model */,
 				3D9E24021F97C5E600BE146C /* AppDelegate.swift */,
-				3D9E24041F97C5E600BE146C /* ViewController.swift */,
 				3D9E24061F97C5E600BE146C /* Main.storyboard */,
+				3D9E24311F99200100BE146C /* AthleteList */,
+				3D9E24321F99201A00BE146C /* AthleteDetails */,
 				3D9E24091F97C5E600BE146C /* Assets.xcassets */,
 				3D9E240B1F97C5E600BE146C /* LaunchScreen.storyboard */,
 				3D9E240E1F97C5E600BE146C /* Info.plist */,
@@ -96,6 +123,53 @@
 			path = ApptcomTests;
 			sourceTree = "<group>";
 		};
+		3D9E24221F97CA3B00BE146C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D9E24231F97CA3B00BE146C /* Athlete.swift */,
+				3D9E24241F97CA3B00BE146C /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D9E24311F99200100BE146C /* AthleteList */ = {
+			isa = PBXGroup;
+			children = (
+				3D9E24271F97CAEC00BE146C /* AthletesTableViewController.swift */,
+				3D9E24291F97CB5B00BE146C /* AthletesPresenter.swift */,
+				3D9E242B1F97CC8800BE146C /* AthletesService.swift */,
+			);
+			name = AthleteList;
+			sourceTree = "<group>";
+		};
+		3D9E24321F99201A00BE146C /* AthleteDetails */ = {
+			isa = PBXGroup;
+			children = (
+				3D9E242D1F99110000BE146C /* AthleteDetailsViewController.swift */,
+			);
+			name = AthleteDetails;
+			sourceTree = "<group>";
+		};
+		78A68E21C9B6BCBD60341FA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD57686B18F42A5AD5D1EEC8 /* Pods-Apptcom.debug.xcconfig */,
+				1D34E935BB5F13200E861A42 /* Pods-Apptcom.release.xcconfig */,
+				9DEB86FC8F696F29E7E10F07 /* Pods-ApptcomTests.debug.xcconfig */,
+				88DAF37B714037B862E650F8 /* Pods-ApptcomTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1353FE09B3C9D19891EA3D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CBC01A893B9D99D44A042FA /* Pods_Apptcom.framework */,
+				939B0B5E343BD28F3657FF29 /* Pods_ApptcomTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D9E241C1F97C5E600BE146C /* Build configuration list for PBXNativeTarget "Apptcom" */;
 			buildPhases = (
+				3B061B2972491C71125E249E /* [CP] Check Pods Manifest.lock */,
 				3D9E23FB1F97C5E600BE146C /* Sources */,
 				3D9E23FC1F97C5E600BE146C /* Frameworks */,
 				3D9E23FD1F97C5E600BE146C /* Resources */,
+				04B8C0587538A2567BE43385 /* [CP] Embed Pods Frameworks */,
+				68B187BB9A26AE1EF6597BDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D9E241F1F97C5E600BE146C /* Build configuration list for PBXNativeTarget "ApptcomTests" */;
 			buildPhases = (
+				44E53F99838D63BDE12430AC /* [CP] Check Pods Manifest.lock */,
 				3D9E240F1F97C5E600BE146C /* Sources */,
 				3D9E24101F97C5E600BE146C /* Frameworks */,
 				3D9E24111F97C5E600BE146C /* Resources */,
+				EA2B87625B3794A3CF266947 /* [CP] Embed Pods Frameworks */,
+				AFD0111D30B3B3ED76782902 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9E240D1F97C5E600BE146C /* LaunchScreen.storyboard in Resources */,
+				3D9E24301F99127E00BE146C /* default_profile_icon.png in Resources */,
 				3D9E240A1F97C5E600BE146C /* Assets.xcassets in Resources */,
 				3D9E24081F97C5E600BE146C /* Main.storyboard in Resources */,
 			);
@@ -196,13 +277,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04B8C0587538A2567BE43385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apptcom/Pods-Apptcom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B061B2972491C71125E249E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44E53F99838D63BDE12430AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68B187BB9A26AE1EF6597BDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apptcom/Pods-Apptcom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD0111D30B3B3ED76782902 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApptcomTests/Pods-ApptcomTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA2B87625B3794A3CF266947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApptcomTests/Pods-ApptcomTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D9E23FB1F97C5E600BE146C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9E24051F97C5E600BE146C /* ViewController.swift in Sources */,
+				3D9E242E1F99110000BE146C /* AthleteDetailsViewController.swift in Sources */,
+				3D9E24251F97CA3B00BE146C /* Athlete.swift in Sources */,
+				3D9E24261F97CA3B00BE146C /* Result.swift in Sources */,
+				3D9E242C1F97CC8800BE146C /* AthletesService.swift in Sources */,
+				3D9E242A1F97CB5B00BE146C /* AthletesPresenter.swift in Sources */,
 				3D9E24031F97C5E600BE146C /* AppDelegate.swift in Sources */,
+				3D9E24281F97CAEC00BE146C /* AthletesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +518,7 @@
 		};
 		3D9E241D1F97C5E600BE146C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD57686B18F42A5AD5D1EEC8 /* Pods-Apptcom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9529KY63CR;
@@ -352,6 +532,7 @@
 		};
 		3D9E241E1F97C5E600BE146C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D34E935BB5F13200E861A42 /* Pods-Apptcom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9529KY63CR;
@@ -365,6 +546,7 @@
 		};
 		3D9E24201F97C5E600BE146C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEB86FC8F696F29E7E10F07 /* Pods-ApptcomTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +562,7 @@
 		};
 		3D9E24211F97C5E600BE146C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DAF37B714037B862E650F8 /* Pods-ApptcomTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +595,7 @@
 				3D9E241E1F97C5E600BE146C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9E241F1F97C5E600BE146C /* Build configuration list for PBXNativeTarget "ApptcomTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +604,7 @@
 				3D9E24211F97C5E600BE146C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
